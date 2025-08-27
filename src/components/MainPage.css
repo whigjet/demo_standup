@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+.main-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.profile-page {
+  padding: 20px 0 100px;
+  background: var(--background-light);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-page h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.profile-page p {
+  color: var(--text-secondary);
+  text-align: center;
+  font-size: 1.1rem;
+}
